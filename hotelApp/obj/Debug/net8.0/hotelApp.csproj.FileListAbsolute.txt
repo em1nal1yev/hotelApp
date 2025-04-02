@@ -1,0 +1,15 @@
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\bin\Debug\net8.0\hotelApp.exe
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\bin\Debug\net8.0\hotelApp.deps.json
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\bin\Debug\net8.0\hotelApp.runtimeconfig.json
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\bin\Debug\net8.0\hotelApp.dll
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\bin\Debug\net8.0\hotelApp.pdb
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.AssemblyInfoInputs.cache
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.AssemblyInfo.cs
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.csproj.CoreCompileInputs.cache
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.sourcelink.json
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.dll
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\refint\hotelApp.dll
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.pdb
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\hotelApp.genruntimeconfig.cache
+C:\Users\Emin\Desktop\backEndTasks\hotelApp\hotelApp\obj\Debug\net8.0\ref\hotelApp.dll
