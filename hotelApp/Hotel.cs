@@ -38,5 +38,15 @@ namespace hotelApp
             Rooms[^1] = room; 
         }
 
+        public override string ToString()
+        {
+            return "Anar";
+        }
+
+        //public override string ToString()
+        //{
+        //    return base.ToString();
+        //}
+
     }
 }

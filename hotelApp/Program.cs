@@ -6,8 +6,8 @@ namespace hotelApp
     {
         static void Main(string[] args)
         {
-            //ToString metodunu overwrite elemeyi basa dusmedim
            
+
 
             Room otaqq = new Room("ad", 1, 1);
             Hotel hotel = new Hotel("Riverside");
@@ -50,14 +50,14 @@ namespace hotelApp
                         {
                             Console.WriteLine("Doludu otaq");
                         }
-                            break;
+                        break;
                     case "0":
                         onnan = false;
                         break;
                 }
             }
-
-            
+            Hotel hotel3 = new Hotel("Anaradssda");
+            Console.WriteLine(hotel3);
         }
     }
 }

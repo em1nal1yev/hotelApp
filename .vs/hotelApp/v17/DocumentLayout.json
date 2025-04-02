@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "hotelApp\\Hotel.cs",
               "ToolTip": "C:\\Users\\Emin\\Desktop\\backEndTasks\\hotelApp\\hotelApp\\Hotel.cs",
               "RelativeToolTip": "hotelApp\\Hotel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T06:06:39.657Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "hotelApp\\Room.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:59:09.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T05:59:09.404Z"
             },
             {
               "$type": "Document",
@@ -58,10 +57,9 @@
               "RelativeDocumentMoniker": "hotelApp\\Program.cs",
               "ToolTip": "C:\\Users\\Emin\\Desktop\\backEndTasks\\hotelApp\\hotelApp\\Program.cs",
               "RelativeToolTip": "hotelApp\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:58:26.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T05:58:26.017Z"
             }
           ]
         }
