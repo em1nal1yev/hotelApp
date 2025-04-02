@@ -8,10 +8,10 @@ namespace hotelApp
 {
     class Room
     {
-        public int id;
+        public static int id;
         public int Id { get; }
-        
-        
+
+
         public bool isAvailable = true;
 
         public string Name { get; set; }
@@ -28,6 +28,7 @@ namespace hotelApp
             Name = name;
             Price = price;
             PersonCapasity = personCapasity;
+            id++;
         }
     }
 }

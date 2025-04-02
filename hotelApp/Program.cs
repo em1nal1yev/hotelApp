@@ -29,19 +29,46 @@ namespace hotelApp
                 switch (userChoice)
                 {
                     case "1":
+                        string otaqAdi;
 
-                        Console.WriteLine("otaq adi daxil edin:");
-                        string otaqAdi = Console.ReadLine();
+
+                        while (true)
+                        {
+                            Console.WriteLine("otaq adi daxil edin:");
+                            otaqAdi = Console.ReadLine();
+                            if (hotel.HasRoom(otaqAdi))
+                            {
+                                Console.WriteLine("Bu adli otaq already var, basqa ad daxil edin!!");
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
                         Console.WriteLine("qiymet daxil edin:");
-                        int otaqQiymeti = Convert.ToInt32(Console.ReadLine());
+                        string otaqQiymeti = Console.ReadLine();
+                        int qiymeti;
+                        if (int.TryParse(otaqQiymeti, out qiymeti))
+                        {
+                        }
+                        else
+                        {
+                            Console.WriteLine("qiymeti duzgun daxil edin!!!");
+                        }
                         Console.WriteLine("otaq kapasitesini daxile edin:");
-                        int otaqKapasitesi = Convert.ToInt32(Console.ReadLine());
-                        Room otaq = new Room(otaqAdi, otaqQiymeti, otaqKapasitesi);
+                        string otaqKapasitesi = Console.ReadLine();
+                        int kapasitesi;
+                        if (int.TryParse(otaqKapasitesi, out kapasitesi)) ;
+                        else
+                        {
+                            Console.WriteLine("Otaqgin tutumunu duzgun qeyd edin!!!");
+                        }
+                            Room otaq = new Room(otaqAdi, qiymeti, kapasitesi);
                         otaqq = otaq;
                         break;
                     case "2":
                         hotel.AddRoom(otaqq);
-                        Console.WriteLine($"otaq {hotel.name} hoteline elave olundu");
+                        Console.WriteLine($"{otaqq.Name} adli otaq {hotel.name} hoteline elave olundu");
                         break;
                     case "3":
                         if (otaqq.isAvailable)
@@ -54,6 +81,9 @@ namespace hotelApp
                             Console.WriteLine("Doludu otaq");
                         }
                         break;
+                    case "4":
+                        hotel.SHowRooms();
+                        break; ;
                     case "0":
                         onnan = false;
                         break;

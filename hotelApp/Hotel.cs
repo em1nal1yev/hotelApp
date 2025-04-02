@@ -10,6 +10,19 @@ namespace hotelApp
     {
         public string name;
         Room[] Rooms = new Room[0];
+
+        public bool HasRoom(string roomName)
+        {
+            for (int i= 0; i<Rooms.Length; i++)
+            {
+                if (Rooms[i].Name == roomName)
+                {
+                    return true;
+                    break;
+                }
+            }
+            return false;
+        }
         public Hotel(string name)
         {
             this.name = name;
@@ -18,7 +31,7 @@ namespace hotelApp
         {
             for(int i = 0; i<Rooms.Length;i++)
             {
-                if (Rooms[i].id == roomId)
+                if (Rooms[i].Id == roomId)
                 {
                     if (!Rooms[i].isAvailable)
                     {
@@ -36,6 +49,21 @@ namespace hotelApp
         {
             Array.Resize(ref Rooms, Rooms.Length + 1);
             Rooms[^1] = room; 
+        }
+
+        public void SHowRooms()
+        {
+            for(int i = 0; i < Rooms.Length; i++)
+            {
+                if (i == Rooms.Length-1)
+                {
+                    Console.WriteLine(Rooms[i].Name + " ");
+                }
+                else
+                {
+                    Console.Write(Rooms[i].Name + " ");
+                }
+            }
         }
 
         public override string ToString()

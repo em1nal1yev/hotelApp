@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{11F35033-306E-43B4-A314-5C0941752B4E}|hotelApp\\hotelApp.csproj|solutionrelative:hotelapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F35033-306E-43B4-A314-5C0941752B4E}|hotelApp\\hotelApp.csproj|c:\\users\\emin\\desktop\\backendtasks\\hotelapp\\hotelapp\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11F35033-306E-43B4-A314-5C0941752B4E}|hotelApp\\hotelApp.csproj|solutionrelative:hotelapp\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{11F35033-306E-43B4-A314-5C0941752B4E}|hotelApp\\hotelApp.csproj|c:\\users\\emin\\desktop\\backendtasks\\hotelapp\\hotelapp\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11F35033-306E-43B4-A314-5C0941752B4E}|hotelApp\\hotelApp.csproj|solutionrelative:hotelapp\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F35033-306E-43B4-A314-5C0941752B4E}|hotelApp\\hotelApp.csproj|c:\\users\\emin\\desktop\\backendtasks\\hotelapp\\hotelapp\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F35033-306E-43B4-A314-5C0941752B4E}|hotelApp\\hotelApp.csproj|solutionrelative:hotelapp\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,26 +26,27 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Users\\Emin\\Desktop\\backEndTasks\\hotelApp\\hotelApp\\Hotel.cs",
               "RelativeDocumentMoniker": "hotelApp\\Hotel.cs",
               "ToolTip": "C:\\Users\\Emin\\Desktop\\backEndTasks\\hotelApp\\hotelApp\\Hotel.cs",
               "RelativeToolTip": "hotelApp\\Hotel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwBYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T06:06:39.657Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\Emin\\Desktop\\backEndTasks\\hotelApp\\hotelApp\\Room.cs",
               "RelativeDocumentMoniker": "hotelApp\\Room.cs",
               "ToolTip": "C:\\Users\\Emin\\Desktop\\backEndTasks\\hotelApp\\hotelApp\\Room.cs",
               "RelativeToolTip": "hotelApp\\Room.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAArwBYAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T05:59:09.404Z",
               "EditorCaption": ""
@@ -58,7 +59,7 @@
               "RelativeDocumentMoniker": "hotelApp\\Program.cs",
               "ToolTip": "C:\\Users\\Emin\\Desktop\\backEndTasks\\hotelApp\\hotelApp\\Program.cs",
               "RelativeToolTip": "hotelApp\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwD4AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T05:58:26.017Z",
               "EditorCaption": ""
