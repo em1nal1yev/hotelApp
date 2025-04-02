@@ -61,7 +61,7 @@ namespace hotelApp
             }
             Hotel hotel3 = new Hotel("Anaradssda");
             Console.WriteLine(hotel3);
-            //sd
+            
         }
     }
 }
