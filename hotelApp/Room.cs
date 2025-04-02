@@ -10,21 +10,24 @@ namespace hotelApp
     {
         public int id;
         public int Id { get; }
-        string _name;
-        int _price;
-        int _personCapacity;
+        
+        
         public bool isAvailable = true;
+
+        public string Name { get; set; }
+        public int Price { get; set; }
+        public int PersonCapasity { get; set; }
 
         public void ShowInfo()
         {
-            Console.WriteLine($"id si:{id}, adi:{_name}, qiymeti:{_price}, kapasitesi:{_personCapacity}");
+            Console.WriteLine($"id si:{id}, adi:{Name}, qiymeti:{Price}, kapasitesi:{PersonCapasity}");
         }
 
         public Room(string name, int price, int personCapasity)
         {
-            _name = name;
-            _price = price;
-            _personCapacity = personCapasity;
+            Name = name;
+            Price = price;
+            PersonCapasity = personCapasity;
         }
     }
 }

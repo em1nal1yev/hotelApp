@@ -6,11 +6,14 @@ namespace hotelApp
     {
         static void Main(string[] args)
         {
-           
 
+            string hotelName;
+            Console.WriteLine("Hotel adi daxil edin: ");
+            hotelName = Console.ReadLine();
+            Hotel hotel = new Hotel(hotelName);
 
             Room otaqq = new Room("ad", 1, 1);
-            Hotel hotel = new Hotel("Riverside");
+            
 
             bool onnan = true;
             while (onnan)
